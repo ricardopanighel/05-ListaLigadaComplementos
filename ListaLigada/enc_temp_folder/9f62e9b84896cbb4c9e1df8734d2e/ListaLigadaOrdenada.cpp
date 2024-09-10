@@ -140,7 +140,8 @@ void inserirElemento()
 	}
 
 	else {
-
+		while (primeiro->valor < novo->valor){
+			primeiro = primeiro->prox;
 		}
 
 	}
